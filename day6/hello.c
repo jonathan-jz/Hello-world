@@ -12,7 +12,7 @@ int main(int argc,char*argv[]){
 
     fread(buf,1,5,fp);
     puts(buf);
-    fwrite("hello",1,5,fp);
+    fwrite("bagan",1,5,fp);
     fclose(fp);
 
 

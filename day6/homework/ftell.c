@@ -12,11 +12,11 @@ int main(int argc, char * argv[]){
         }
     }
     char ch[200];
-    scanf("%s",ch);
-    printf("Current position :%ld\n",ftell(fp));
-    fprintf(fp,"%s\n",&ch);
+    scanf("%s",ch);//获取字符串
+    printf("Current position :%ld\n",ftell(fp));//当前的位置
+    fprintf(fp,"%s\n",&ch);//将信息转移到文件中
 
-    fclose(fp);
+    fclose(fp); //关闭文件
 
     return 0;
 }
