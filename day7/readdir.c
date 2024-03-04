@@ -11,7 +11,7 @@ int main(int argc,char* argv[]){
         
         pdirent->d_ino,pdirent->d_reclen,pdirent->d_type,pdirent->d_name);
 
-    //pdirent = readdir(pdir);
+    pdirent = readdir(pdir);
 
     printf("inode = %ld    reclen =%d     type = %d   name  = %s\n",\
         

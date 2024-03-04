@@ -19,7 +19,7 @@ int main(int argc,char* argv[]){
     puts("----------------------------------------------------------------------");
     
     rewinddir(pdir); //回到开头的pdir
-    seekdir(pdir,location);   //移动到指定的位置
+    //seekdir(pdir,location);   //移动到指定的位置
     pdirent = readdir(pdir);    //这时候还会移动到下一个文件
     
         printf("inode = %ld, reclen = %d ,type = %d,name = %s\n",pdirent->d_ino,pdirent->d_reclen,pdirent->d_type,pdirent->d_name);
