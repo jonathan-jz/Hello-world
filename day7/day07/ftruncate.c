@@ -6,6 +6,7 @@ int main(int argc, char *argv[]){
     ERROR_CHECK(fd,-1,"open");
     printf("fd = %d\n", fd);
     int ret = ftruncate(fd,40960);
+    printf("%d\n",ret);
     ERROR_CHECK(ret,-1,"ftruncate");
     close(fd);    
 }
