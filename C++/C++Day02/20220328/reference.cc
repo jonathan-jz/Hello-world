@@ -5,7 +5,7 @@ using std::endl;
 void test0() 
 {
 	int * pint = nullptr;//指针可以单独存在
-	//int & ref = 1;
+//	int & ref = 1;
 	int a = 1;
 	int & ref = a;//引用一经初始化之后，
 	//就与变量a是一样的, 

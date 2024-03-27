@@ -1,9 +1,3 @@
- ///
- /// @file    reference2.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2022-03-28 14:34:54
- ///
- 
 #include <iostream>
 using std::cout;
 using std::endl;
@@ -33,7 +27,7 @@ void test0()
 } 
 #endif
 
-
+#if 0 
 //地址传递 => 本质还是值传递
 void swap(int * px, int * py)
 {
@@ -52,7 +46,7 @@ void test1()
 	cout << "a:" << a << endl;
 	cout << "b:" << b << endl;
 } 
-
+#endif
 //引用传递
 
 void swap(int & x, int & y)
@@ -87,8 +81,8 @@ void test3()
  
 int main(void)
 {
-	/* test0(); */
-	/* test1(); */
+	// test0(); 
+	 //test1(); 
 	test2();
 	return 0;
 }
