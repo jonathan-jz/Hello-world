@@ -1,9 +1,3 @@
- ///
- /// @file    overload.c
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2022-03-28 16:30:36
- ///
- 
 #include <stdio.h>
 
 #ifdef __cplusplus   //C++编译器自带的一个宏定义

@@ -15,7 +15,7 @@ int add(int x, int y)
 
 
 
-int add(int x = 0, int y = 0, int z)
+int add(int x , int y = 0, int z=0)
 {
 	return x + y + z;
 }

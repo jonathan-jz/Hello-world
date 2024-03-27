@@ -21,12 +21,15 @@ void test1()
 	cout << " number:" << number << endl;
 	cout << "p2:" << p2 << endl
 		 << "&number:" << &number << endl;
+
+	cout <<"*p: "<<*p<<endl;
+	cout <<"number: "<<number<<endl;
  
 } 
 
 int main(void)
 {
 	test1();
-	/* test0(); */
+//	test0(); 
 	return 0;
 }
