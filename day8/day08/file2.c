@@ -10,7 +10,7 @@ int main(int argc,char*argv[]){
     printf("newfd = %d\n",newfd);
 
     write(fd,"hello",5);
-    write(fd,"world",5);
+    write(newfd," world",6);
 
     close(fd);
     close(newfd);

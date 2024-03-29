@@ -1,4 +1,5 @@
 #include <func.h>
+
 int main(int argc, char *argv[]){
     // ./dup file1
     ARGS_CHECK(argc,2);

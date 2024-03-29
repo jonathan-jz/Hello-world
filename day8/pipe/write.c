@@ -6,7 +6,7 @@ int main(int argc, char *argv[]){
     puts("Write side open!");
     char buf[4096] = {0};
     int cnt = 0;
-    //printf("cnt = %d\n", cnt++);
+    printf("cnt = %d\n", cnt++);
     write(fdw,"hello",5);
     close(fdw);
 }

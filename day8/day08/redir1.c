@@ -5,7 +5,7 @@ int main(int argc,char*argv[]){
     close(1);
     int fd = open(argv[1],O_RDWR);
     ERROR_CHECK(fd,-1,"open");
-    printf("Ican't see you!\n");
+    printf("I can't see you!\n");
 
     return 0;
 }

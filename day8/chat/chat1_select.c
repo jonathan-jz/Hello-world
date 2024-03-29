@@ -34,6 +34,7 @@ int main(int argc, char *argv[]){
             write(fdw, buf, strlen(buf));
         }
     }
-    close(fdw);
+    
     close(fdr);
+    close(fdw);
 }

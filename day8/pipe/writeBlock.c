@@ -23,7 +23,7 @@ int main(int argc, char *argv[]){
             printf("write, cnt = %d\n", cnt++);
             write(fdw,buf,4097);
         }
-        //usleep(100000);
+        usleep(100000);
     }
     close(fdr);
     close(fdw);

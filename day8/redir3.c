@@ -6,6 +6,9 @@ int main(int argc, char *argv[]){
     ERROR_CHECK(fd, -1, "open");
     printf("You can see me!\n");
     dup2(STDOUT_FILENO,5);
+    //write(0,"hello",5);
+    printf("\n");
+    printf("%d\n",STDOUT_FILENO);
     dup2(fd,STDOUT_FILENO);
     printf("You can't see me!\n");
     dup2(5,STDOUT_FILENO);

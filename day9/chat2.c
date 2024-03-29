@@ -1,7 +1,5 @@
 #include <func.h>
-int main(int argc, char *argv[])
-{
-    // ./chat2 1.pipe 2.pipe
+int main(int argc,char*argv[]){
     ARGS_CHECK(argc, 3);
     int fdr = open(argv[1], O_RDONLY);
     ERROR_CHECK(fdr, -1, "open fdr");
@@ -11,21 +9,21 @@ int main(int argc, char *argv[])
     fd_set rdset;
     struct timeval timeout;
     char buf[2048] = {0};
-    while (1)
-    {
+    while(1){
         FD_ZERO(&rdset);
-        FD_SET(STDIN_FILENO, &rdset);
-        FD_SET(fdr, &rdset);
+        FD_SET(STDIN_FILENO,&rdset);
+        FD_SET(fdr,&rdset);
         timeout.tv_sec = 3;
         timeout.tv_usec = 0;
-        int sret = select(fdr + 1, &rdset, NULL, NULL, &timeout);
+        int sret = select(fdr+1,&rdset,NULL,NULL,&timeout);
+        
         if(sret == 0){
             printf("time out!\n");
             continue;
         }
-        if (FD_ISSET(fdr, &rdset))
-        {
-            printf("Messsage from pipe!\n");
+        if(FD_ISSET(fdr,&rdset)){
+
+         printf("Messsage from pipe!\n");
             memset(buf, 0, sizeof(buf));
             read(fdr, buf, sizeof(buf));
             puts(buf);
@@ -46,4 +44,6 @@ int main(int argc, char *argv[])
     
     close(fdr);
     close(fdw);
+
+    return 0;
 }
