@@ -46,11 +46,13 @@ int main(){
     wd::display();
     std::cout <<"+++++++++++++++++++++++++++++++++="<<std::endl;
     display1();
+    
+    std::cout <<"+++++++++++++++++++++++++++++++++="<<std::endl;
 
     sd::print();
     sd::bl();
 
-
+    std::cout <<"+++++++++++++++++++++++++++++++++="<<std::endl;
     ::fun();
 
     return 0;

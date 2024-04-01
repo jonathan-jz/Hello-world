@@ -12,8 +12,8 @@ void test0()
 
 void test1()
 {
-	//const int number;   //const一开始就应该被赋值，否则报错
-	//cout << "number:" << number << endl;
+	// const int number;   //const一开始就应该被赋值，否则报错
+	// cout << "number:" << number << endl;
 }
 
 //#define KMAX 1000
@@ -33,7 +33,10 @@ void test2()
 int main(void)
 {
 	test0(); 
-	/* test1(); */
+	cout<<"+++++++++++++++++++++++"<<endl;
+	test1(); 
+	cout <<"+++++++++++++++++++++++++++"<<endl;
 	test2();
+
 	return 0;
 }

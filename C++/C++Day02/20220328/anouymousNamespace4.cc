@@ -28,16 +28,16 @@ int inumber = 4;
 }//end of namespace wd
 
  
-// void test0() 
-// {
-// 	wd::display();
-// } 
+void test0() 
+{
+	wd::display();
+} 
 
 void test1();
  
 int main(void)
 {
 	//test0();
-	test1(); 
+	test0(); 
 	return 0;
 }

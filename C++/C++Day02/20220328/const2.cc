@@ -60,12 +60,16 @@ void test3()
 	cout << "*pa:" << *pa << endl
 		 << "pa：" << pa << endl;
 } 
- 
+using std::cout;
+using std::endl;
 int main(void)
 {
 	test0();
+	cout <<"++++++++++++++++++"<<endl;
 	test1();
+	cout <<"++++++++++++++++++"<<endl;
 	test2();
+	cout <<"++++++++++++++++++"<<endl;
 	test3();
 	return 0;
 }

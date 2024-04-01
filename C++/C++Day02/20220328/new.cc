@@ -7,6 +7,7 @@ using std::endl;
  
 void test0() 
 {
+	
 	//malloc并不会进行初始化
 	int * pint = (int*)malloc(sizeof(int));
 	memset(pint, 0, sizeof(int));

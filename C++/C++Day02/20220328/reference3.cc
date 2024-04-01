@@ -17,6 +17,7 @@ int & getElement(int idx)
 {
 	return arr[idx];
 }
+
  
 void test0() 
 {

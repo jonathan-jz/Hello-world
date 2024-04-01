@@ -3,16 +3,16 @@
 using std::cout;
 using std::endl;
 
-
-
-int gnumber = 1;
-
 namespace 
 {
 
 int number = 3;
 
 }//end of namespace 
+
+
+int gnumber = 1;
+
 
 
 namespace wd

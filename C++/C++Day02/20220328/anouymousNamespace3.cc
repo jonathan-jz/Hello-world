@@ -6,11 +6,11 @@ using std::endl;
 
 //全局变量number 可以作为外部变量使用
 int number = 1;
-
 namespace 
 {
 int number = 3;
 }//end of namespace 
+
 
 
 namespace wd

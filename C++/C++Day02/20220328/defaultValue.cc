@@ -22,6 +22,7 @@ int add(int x , int y = 0, int z=0)
  
 int main(void)
 {
+
 	int a = 1, b = 3, c = 5;
 	printf("add(a):%d\n", add(a));
 	printf("add(a, b):%d\n", add(a, b));

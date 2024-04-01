@@ -30,6 +30,6 @@ void test1()
 int main(void)
 {
 	test1();
-//	test0(); 
+	test0(); 
 	return 0;
 }

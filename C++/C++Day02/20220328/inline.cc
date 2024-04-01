@@ -2,6 +2,7 @@
 using std::cout;
 using std::endl;
 
+
 //宏定义的可读性不强, 维护性很差
 #define MAX(x,y)  ((x)>(y)?(x):(y))
 #define MULTIPLY(x,y) ((x)*(y))
@@ -33,7 +34,7 @@ void test0()
  
 int main(void)
 {
-	/* test0(); */
+	test0(); 
 	test1();
 	return 0;
 }

@@ -8,6 +8,7 @@ int & func()
 	return number;
 }
  
+ 
 void test0() 
 {
 	cout << "func():" << func() << endl;

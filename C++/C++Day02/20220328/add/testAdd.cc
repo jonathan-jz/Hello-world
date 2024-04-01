@@ -1,9 +1,3 @@
- ///
- /// @file    testAdd.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2022-03-28 17:56:56
- ///
- 
 #include "add.hpp"
 #include <iostream>
 using std::cout;

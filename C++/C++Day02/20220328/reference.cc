@@ -11,6 +11,7 @@ void test0()
 	//就与变量a是一样的, 
 	//引用本质上是一个变量的别名
 
+
 	cout << "a:" << a << endl;
 	cout << "ref:" << ref << endl;
 	ref = 10;

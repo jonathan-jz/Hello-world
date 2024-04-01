@@ -16,6 +16,7 @@ void test0()
 	cout << "b1:" << b1 << endl
 		 << "b2:" << b2 << endl
 		 << "b3:" << b3 << endl
+		 
 		 << "b4:" << b4 << endl
 		 << "b5:" << b5 << endl
 		 << "b6:" << b6 << endl;
