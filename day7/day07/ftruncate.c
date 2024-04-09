@@ -8,5 +8,6 @@ int main(int argc, char *argv[]){
     int ret = ftruncate(fd,40960);
     printf("%d\n",ret);
     ERROR_CHECK(ret,-1,"ftruncate");
-    close(fd);    
+    close(fd);  
+      
 }

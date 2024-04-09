@@ -7,5 +7,6 @@ int main(int argc, char *argv[]){
     write(fd,"1555",4);
     close(fd);
     return 0;
+    
 }
 

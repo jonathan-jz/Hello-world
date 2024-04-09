@@ -10,4 +10,5 @@ int main(int argc, char *argv[]){
     ERROR_CHECK(ret,-1,"write");
     printf("ret = %d\n", ret);
     close(fd);
+
 }

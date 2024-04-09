@@ -12,4 +12,5 @@ int main(int argc, char *argv[]){
     printf("newFd = %d\n", newFd);
     close(fd);
     close(newFd);
+
 }

@@ -11,4 +11,5 @@ int main(int argc, char *argv[]){
                pdirent->d_ino, pdirent->d_reclen, pdirent->d_type, pdirent->d_name);
     }
     closedir(pdir);
+
 }

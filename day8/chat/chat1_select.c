@@ -19,7 +19,7 @@ int main(int argc, char *argv[]){
         {
             printf("Messsage from pipe!\n");
             memset(buf, 0, sizeof(buf));
-            int ret = read(fdr, buf, sizeof(buf));
+            int ret = read(fdr, buf, sizeof(buf)-1);
             if(ret == 0){
                 puts("hehe");
                 break;

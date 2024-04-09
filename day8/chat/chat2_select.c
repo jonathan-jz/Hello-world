@@ -1,6 +1,5 @@
 #include <func.h>
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]){
     // ./chat2 1.pipe 2.pipe
     ARGS_CHECK(argc, 3);
     int fdr = open(argv[1], O_RDONLY);
@@ -27,7 +26,7 @@ int main(int argc, char *argv[])
         {
             printf("Messsage from pipe!\n");
             memset(buf, 0, sizeof(buf));
-            read(fdr, buf, sizeof(buf));
+            read(fdr, buf, sizeof(buf)-1);
             puts(buf);
         }
         if (FD_ISSET(STDIN_FILENO, &rdset))

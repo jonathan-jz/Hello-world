@@ -7,4 +7,5 @@ int main(int argc, char *argv[]){
     int fd = open(argv[1], O_RDWR);
     ERROR_CHECK(fd,-1,"open");
     printf("I can't see you!\n");
+
 }

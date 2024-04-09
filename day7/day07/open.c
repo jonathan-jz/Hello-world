@@ -8,4 +8,5 @@ int main(int argc, char *argv[]){
     ERROR_CHECK(fd,-1,"open");
     printf("fd = %d\n", fd);
     close(fd);    
+    
 }

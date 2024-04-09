@@ -13,6 +13,7 @@ int main(int argc, char *argv[]){
         }
         printf("inode = %ld, reclen = %d, type = %d, name = %s\n",
                pdirent->d_ino, pdirent->d_reclen, pdirent->d_type, pdirent->d_name);
+               
     }
     puts("----------------------------");
     seekdir(pdir,location);

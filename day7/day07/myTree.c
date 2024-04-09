@@ -1,4 +1,5 @@
 #include <func.h>
+#include <dirent.h>
 int DFSprint(char *path, int width);
 int main(int argc, char *argv[]){
     //./myTree dir1
@@ -23,6 +24,7 @@ int DFSprint(char *path, int width){
         if(pdirent->d_type == DT_DIR){
             sprintf(newPath,"%s%s%s", path,"/",pdirent->d_name);
             DFSprint(newPath,width+4);
+
         }
     }
 }
