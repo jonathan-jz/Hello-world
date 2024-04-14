@@ -6,7 +6,6 @@ int main(){
     ERROR_CHECK(shmid, -1, "shmget");
     char *p = (char *)shmat(shmid,NULL,0);
     ERROR_CHECK(p,(void *)-1,"shmat");
-    //while(1);
-    puts(p);
-    shmdt(p);
+    while(1);
+    //shmdt(p);
 }

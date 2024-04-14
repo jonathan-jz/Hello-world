@@ -7,4 +7,5 @@ int main(int argc, char *argv[]){
     int ret = kill(atoi(argv[2]),atoi(argv[1]+1));
     ERROR_CHECK(ret,-1,"kill");
     return 0;
+    
 }

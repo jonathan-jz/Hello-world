@@ -6,7 +6,7 @@ void func2(int num, siginfo_t * info, void * p){
     //printf("pid = %d\n", info->si_pid);
     //printf("uid = %d\n", info->si_uid);
     printf("before num = %d\n", num);
-    sleep(5);
+    sleep(2);
     printf("after num = %d\n", num);
     sigset_t set;
     sigpending(&set);

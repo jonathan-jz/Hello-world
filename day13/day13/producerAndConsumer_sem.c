@@ -1,6 +1,7 @@
 #include <func.h>
 int main(){
     int semid = semget(1001,2,IPC_CREAT|0600);
+    
     //信号量创建时key相同的大小也一定要相同
     ERROR_CHECK(semid,-1,"semget");
     //int ret = semctl(semid,0,SETVAL,0);

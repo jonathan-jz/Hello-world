@@ -13,11 +13,11 @@ void Daemon(){
     umask(0);//去掉文件创建掩码
 }
 int main(){
-   // Daemon();
+    //Daemon();
     for(int i = 0;i < 20; i += 2){
         time_t now = time(NULL);
         struct tm * pTm = localtime(&now);
-        syslog(LOG_INFO,"%02d%02d %02d:%02d:%02d\n",
+        printf("%02d%02d %02d:%02d:%02d\n",
             pTm->tm_mon+1, pTm->tm_mday,pTm->tm_hour,pTm->tm_min,pTm->tm_sec);
         sleep(2);
     }
