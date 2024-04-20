@@ -1,3 +1,9 @@
+ ///
+ /// @file    new.cc
+ /// @author  lemon(haohb13@gmail.com)
+ /// @date    2022-03-28 11:28:43
+ ///
+ 
 #include <stdlib.h>
 #include <string.h>
 
@@ -7,7 +13,6 @@ using std::endl;
  
 void test0() 
 {
-	
 	//malloc并不会进行初始化
 	int * pint = (int*)malloc(sizeof(int));
 	memset(pint, 0, sizeof(int));

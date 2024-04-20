@@ -13,7 +13,7 @@ void Daemon(){
     umask(0);//去掉文件创建掩码
 }
 int main(){
-    //Daemon();
+    Daemon();
     for(int i = 0;i < 20; i += 2){
         time_t now = time(NULL);
         struct tm * pTm = localtime(&now);

@@ -6,7 +6,7 @@ int main(int argc, char *argv[]){
     puts("Read side open!");
     char buf[1024] = {0};
     read(fdr,buf,sizeof(buf));
-    printf("%s",buf);
+    printf("%s\n",buf);
 
     close(fdr);
 }

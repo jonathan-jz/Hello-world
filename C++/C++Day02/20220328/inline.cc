@@ -1,7 +1,12 @@
+ ///
+ /// @file    inline.cc
+ /// @author  lemon(haohb13@gmail.com)
+ /// @date    2022-03-28 17:40:24
+ ///
+ 
 #include <iostream>
 using std::cout;
 using std::endl;
-
 
 //宏定义的可读性不强, 维护性很差
 #define MAX(x,y)  ((x)>(y)?(x):(y))
@@ -34,7 +39,7 @@ void test0()
  
 int main(void)
 {
-	test0(); 
+	/* test0(); */
 	test1();
 	return 0;
 }

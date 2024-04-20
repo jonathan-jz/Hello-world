@@ -7,6 +7,6 @@ int main(int argc, char *argv[]){
     char buf[4096] = {0};
     int cnt = 0;
     printf("cnt = %d\n", cnt++);
-    write(fdw,"hello",5);
+    write(fdw,"hello\n",5);
     close(fdw);
 }

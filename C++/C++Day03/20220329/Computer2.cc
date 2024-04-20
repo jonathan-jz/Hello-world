@@ -50,7 +50,8 @@ void Computer::setPrice(double price)
 void Computer::print()
 {
 	cout << "品牌:" <<  _brand << endl
-		 << "价格:" << price_ << endl;
+		 << "价格:" << price_ << endl
+		 << "我的价格："<<m_price <<endl;;
 }
 
 int main(void)

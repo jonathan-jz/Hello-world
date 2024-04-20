@@ -39,7 +39,7 @@ int main(int argc, char *argv[]){
                 write(fdw,"nishigehaoren", 13);
                 break;
             }
-            write(fdw, buf, strlen(buf));
+            write(fdw, buf, strlen(buf)-1);
         }
     }
     

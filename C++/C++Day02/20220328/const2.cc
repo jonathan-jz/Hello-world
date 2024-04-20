@@ -1,3 +1,9 @@
+ ///
+ /// @file    const2.cc
+ /// @author  lemon(haohb13@gmail.com)
+ /// @date    2022-03-28 11:06:58
+ ///
+ 
 #include <iostream>
 using std::cout;
 using std::endl;
@@ -11,8 +17,7 @@ void test0()
 	pa = &b;//改变pa指针的指向
 
 	cout << "*pa:" << *pa << endl
-		 << "pa：" << pa << endl
-		 <<"a = "<<a<<endl;
+		 << "pa：" << pa << endl;
 } 
 
 
@@ -44,8 +49,7 @@ void test2()
 	//pa = &b;//error, 改变pa指针的指向
 
 	cout << "*pa:" << *pa << endl
-		 << "pa：" << pa << endl
-		 <<"*pa:"<<*pa<<endl;
+		 << "pa：" << pa << endl;
 } 
 
 void test3() 
@@ -60,16 +64,10 @@ void test3()
 	cout << "*pa:" << *pa << endl
 		 << "pa：" << pa << endl;
 } 
-using std::cout;
-using std::endl;
+ 
 int main(void)
 {
-	test0();
-	cout <<"++++++++++++++++++"<<endl;
+	/* test0(); */
 	test1();
-	cout <<"++++++++++++++++++"<<endl;
-	test2();
-	cout <<"++++++++++++++++++"<<endl;
-	test3();
 	return 0;
 }

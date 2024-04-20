@@ -1,3 +1,9 @@
+ ///
+ /// @file    const_cast.cc
+ /// @author  lemon(haohb13@gmail.com)
+ /// @date    2022-03-28 16:18:28
+ ///
+ 
 #include <iostream>
 using std::cout;
 using std::endl;
@@ -21,15 +27,12 @@ void test1()
 	cout << " number:" << number << endl;
 	cout << "p2:" << p2 << endl
 		 << "&number:" << &number << endl;
-
-	cout <<"*p: "<<*p<<endl;
-	cout <<"number: "<<number<<endl;
  
 } 
 
 int main(void)
 {
 	test1();
-	test0(); 
+	/* test0(); */
 	return 0;
 }

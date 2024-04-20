@@ -10,7 +10,7 @@ void test0()
 	for(int idx = 0; idx < 10; ++idx) {
 		std::cerr << 'a';
 	}
-	//cout << endl;
+	cout << endl;
 
 	sleep(3);
  
@@ -27,6 +27,6 @@ void test1()
 int main(void)
 {
 	test0();
-	 test1(); 
+	test1(); 
 	return 0;
 }

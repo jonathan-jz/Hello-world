@@ -1,3 +1,9 @@
+ ///
+ /// @file    const.cc
+ /// @author  lemon(haohb13@gmail.com)
+ /// @date    2022-03-28 10:52:01
+ ///
+ 
 #include <iostream>
 using std::cout;
 using std::endl;
@@ -6,14 +12,14 @@ using std::endl;
 void test0() 
 {
 	const int number = 10;
-	//number = 11; //这里的number不能被修改
+	//number = 11;
 	cout << "number:" << number << endl;
 } 
 
 void test1()
 {
-	// const int number;   //const一开始就应该被赋值，否则报错
-	// cout << "number:" << number << endl;
+	//const int number;
+	//cout << "number:" << number << endl;
 }
 
 //#define KMAX 1000
@@ -32,11 +38,8 @@ void test2()
  
 int main(void)
 {
-	test0(); 
-	cout<<"+++++++++++++++++++++++"<<endl;
-	test1(); 
-	cout <<"+++++++++++++++++++++++++++"<<endl;
+	/* test0(); */
+	/* test1(); */
 	test2();
-
 	return 0;
 }

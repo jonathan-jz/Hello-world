@@ -1,3 +1,9 @@
+ ///
+ /// @file    static_cast.cc
+ /// @author  lemon(haohb13@gmail.com)
+ /// @date    2022-03-28 16:04:25
+ ///
+ 
 #include <iostream>
 using std::cout;
 using std::endl;
@@ -25,8 +31,7 @@ void test1()
  
 int main(void)
 {
-	
-	test0(); 
+	/* test0(); */
 	test1();
 	return 0;
 }

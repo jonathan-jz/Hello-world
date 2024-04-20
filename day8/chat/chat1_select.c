@@ -30,8 +30,8 @@ int main(int argc, char *argv[]){
         {
             printf("Messsage from stdin!\n");
             memset(buf, 0, sizeof(buf));
-            read(STDIN_FILENO, buf, sizeof(buf));
-            write(fdw, buf, strlen(buf));
+            read(STDIN_FILENO, buf, sizeof(buf)-1);
+            write(fdw, buf, strlen(buf)-1);
         }
     }
     
