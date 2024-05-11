@@ -1,7 +1,7 @@
 #include <func.h>
 typedef __sighandler_t sighandler_t;
 void handler(int num){
-    printf("num = %d", num);
+    printf("num = %d\n", num);
     //signal(SIGINT,SIG_DFL);//default
 }
 int main(){

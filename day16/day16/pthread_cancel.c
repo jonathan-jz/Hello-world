@@ -1,7 +1,7 @@
 #include <func.h>
 void * threadFunc(void *arg){
     while(1){
-       //printf("I still alive!\n");
+       printf("I still alive!\n");
         pthread_testcancel();
     }
 }
