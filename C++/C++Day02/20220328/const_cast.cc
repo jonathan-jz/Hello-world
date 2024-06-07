@@ -1,9 +1,3 @@
- ///
- /// @file    const_cast.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2022-03-28 16:18:28
- ///
- 
 #include <iostream>
 using std::cout;
 using std::endl;
@@ -20,10 +14,12 @@ void test1()
 {
 	const int number = 1;
 	const int * p = &number;//
+	cout <<*p<<endl;
 
 	int *p2 = const_cast<int*>(&number);
 	*p2 = 10;
 	cout << "*p2: " << *p2 << endl;
+	cout <<"p :"<<*p<<endl;
 	cout << " number:" << number << endl;
 	cout << "p2:" << p2 << endl
 		 << "&number:" << &number << endl;

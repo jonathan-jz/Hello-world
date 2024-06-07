@@ -15,4 +15,5 @@ int main(){
     char *p = ctime(&mainNow);
     printf("main thread, time = %s\n", p);
     pthread_join(tid1,NULL);
+    return 0;
 }

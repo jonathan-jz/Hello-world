@@ -1,9 +1,3 @@
- ///
- /// @file    const2.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2022-03-28 11:06:58
- ///
- 
 #include <iostream>
 using std::cout;
 using std::endl;

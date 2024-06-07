@@ -1,9 +1,3 @@
- ///
- /// @file    anouymousNamespace.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2022-03-28 09:36:04
- ///
- 
 #include <stdio.h>
 #include <iostream>
 using std::cout;

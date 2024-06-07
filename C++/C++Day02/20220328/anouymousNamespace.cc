@@ -1,9 +1,3 @@
- ///
- /// @file    anouymousNamespace.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2022-03-28 09:36:04
- ///
- 
 #include <iostream>
 using std::cout;
 using std::endl;
@@ -28,6 +22,8 @@ void display()
  
 void test0() 
 {
+	cout <<::number<<endl;
+	cout <<wd::number<<endl;
 	wd::display();
 } 
  

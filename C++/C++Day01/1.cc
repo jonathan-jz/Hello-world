@@ -30,7 +30,7 @@ using zhang::display1;
 
 namespace sd{
 
-    void print();
+    // void print();
     void bl();
     void print(){
     std::cout << "Here is "<<std::endl;

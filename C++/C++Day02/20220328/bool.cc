@@ -1,9 +1,3 @@
- ///
- /// @file    bool.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2022-03-28 17:35:24
- ///
- 
 #include <iostream>
 using std::cout;
 using std::endl;

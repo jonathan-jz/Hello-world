@@ -19,6 +19,6 @@ int main(){
     printf("ret = %ld\n", (long )ret);
     // pthread_join(tid,NULL);
     // pthread_join(&tid,NULL);
-    int ret = pthread_join(0,NULL);
-    THREAD_ERROR_CHECK(ret,"pthread_join");
+    // int ret = pthread_join(0,NULL);
+    // THREAD_ERROR_CHECK(ret,"pthread_join");
 }

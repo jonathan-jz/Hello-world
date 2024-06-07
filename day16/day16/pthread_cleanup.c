@@ -17,8 +17,8 @@ void * threadFunc(void *arg){
     pthread_cleanup_push(func2,p2);
     pthread_cleanup_pop(1);
     pthread_exit((void *)-1);
-    // pthread_cleanup_pop(1);//如果执行到cleanup_pop 参数是0不会执行，是正数就会执行
-    pthread_cleanup_pop必须和pthread_cleanup_push成对出现
+    pthread_cleanup_pop(1);//如果执行到cleanup_pop 参数是0不会执行，是正数就会执行
+    // pthread_cleanup_pop必须和pthread_cleanup_push成对出现
     puts("pop");
     pthread_exit((void *)-1);
 }
