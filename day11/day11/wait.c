@@ -4,8 +4,8 @@ int main(){
     if(ret == 0){
         printf("I am child, pid = %d, ppid = %d\n",
             getpid(),getppid());
-        //return 200;
-        return -1;
+        // return 200;
+        // return -1;
         //while(1);
     }
     else{

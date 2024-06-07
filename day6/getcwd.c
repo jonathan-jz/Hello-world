@@ -10,6 +10,6 @@ int main(int argc, char* argv[]){
     ERROR_CHECK(ret,NULL,"getcwd");
     printf("ret = %s\n",ret);
     printf("buff = %s\n ",buf);
-  //  free(ret);
+    // free(ret);
     return 0;
 }

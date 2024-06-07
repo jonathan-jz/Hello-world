@@ -7,6 +7,7 @@ int main(int argc,char**argv){
 
     printf("%s\n",buf);
     printf("%s\n",ret);
+    // free(ret);
 
     return 0;
 }

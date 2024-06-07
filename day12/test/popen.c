@@ -7,7 +7,7 @@ int main()
  
     char buf[128] = {0};
     fread(buf,1,sizeof(buf),fp);
-    printf("read from pipe %s\n",buf);
+    printf("read from pipe %s",buf);
     pclose(fp);
 
     return 0;

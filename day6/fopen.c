@@ -2,7 +2,7 @@
 
 int main(int argc,char**argv){
     ARGS_CHECK(argc,2);
-    FILE*fp = fopen(argv[1],"a+");
+    FILE*fp = fopen(argv[1],"a");
     ERROR_CHECK(fp,NULL,"fopen");
     char buf[6]={0};
     //ptr一开始指向开头
